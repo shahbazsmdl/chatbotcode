@@ -1,0 +1,564 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hey :-)\n how my i can help you?",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thank's a lot!"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure"
+			]
+		},
+		{
+			"tag": "hygiene_products",
+			"patterns": [
+				"tell me about your hygiene products",
+				"what hygiene items do you have?",
+				"do you sell toilet paper?",
+				"tell me about your soap dispensers"
+			],
+			"responses": [
+				"Our hygiene products are designed for your comfort and cleanliness, including:-\n Toilet Dispenser\n- Soap Dispenser\n- Towel Dispenser\n- Toilet Paper\n- Towel Paper\n- Cleaning Rolls\n- Soap",
+				"Explore our range of user-friendly hygiene items, including:-\n Toilet Dispenser\n- Soap Dispenser\n- Towel Dispenser\n- Toilet Paper\n- Towel Paper\n- Cleaning Rolls\n- Soap",
+				"We offer a variety of hygiene products to make your experience pleasant, such as:-\n Toilet Dispenser\n- Soap Dispenser\n- Towel Dispenser\n- Toilet Paper\n- Towel Paper\n- Cleaning Rolls\n- Soap"
+			]
+		},
+		{
+			"tag": "cleaning_textiles",
+			"patterns": [
+				"Tell me about your cleaning textiles",
+				"What textiles do you offer?",
+				"Do you sell towels?",
+				"Describe your mop covers"
+			],
+			"responses": [
+				"Our cleaning textiles are designed for effective cleaning and durability, including:\n- Towels\n- Microfiber Towels\n- Universal Cloths\n- Leather Towels\n- Copper Cloths\n- Mop Covers\n- Microfiber\n- Cotton\n- Mixed Mop\n- Sponges",
+				"Explore our range of user-friendly cleaning textiles, including:\n- Towels\n- Microfiber Towels\n- Universal Cloths\n- Leather Towels\n- Copper Cloths\n- Mop Covers\n- Microfiber\n- Cotton\n- Mixed Mop\n- Sponges",
+				"We offer a variety of cleaning textiles to suit your needs, such as:\n- Towels\n- Microfiber Towels\n- Universal Cloths\n- Leather Towels\n- Copper Cloths\n- Mop Covers\n- Microfiber\n- Cotton\n- Mixed Mop\n- Sponges"
+			]
+		},
+		{
+			"tag": "delivery_shipping",
+			"patterns": [
+				"Tell me about delivery options",
+				"How is shipping handled?",
+				"What are the shipping costs?"
+			],
+			"responses": [
+				"We offer insured shipping for our products. Delivery is typically handled by a forwarding company, DPD, or CTL GROUP. Dangerous goods and longer items are shipped with DPD, while large and heavy deliveries are sent by a freight forwarder. Unfortunately, express shipping is not available for dangerous goods. Free curbside delivery is provided by courier. Goods are dispatched immediately after receipt of payment.",
+				"For delivery abroad, the following costs apply to Germany (all prices excl. VAT):\n- up to 3 kg: €5.30\n- up to 5 kg: €5.80\n- up to 10 kg: €6.40\n- up to 15 kg: €6.90\n- up to 20 kg: €7.40\n- up to 25 kg: €8.20\n- up to 31.5 kg: €9.20\n- Free shipping for orders over €500.00."
+			]
+		},
+		{
+			"tag": "payment_methods",
+			"patterns": [
+				"What payment methods do you accept?",
+				"Tell me about payment options",
+				"How can I pay for my order?",
+				"Do you take credit cards?",
+				"Do you accept Mastercard?",
+				"Can I pay with Paypal?",
+				"Are you cash only?"
+			],
+			"responses": [
+				"We accept the following payment methods:\n- Transfer\n- Cash payment\n- Purchase on account\n- Purchase on account via Klarna\n- Klarna installment purchase\n- Paypal",
+				"If you choose bank transfer, your order will be delivered after you transfer the invoice amount. Cash payment is available for collection in our sales room. Purchase on account requires payment within 7 days of receipt. PayPal payments have no additional fees, and you can also use Klarna for purchase on account or installment purchase."
+			]
+		},
+		{
+			"tag": "order_tracking",
+			"patterns": [
+				"How can I track my order?",
+				"Tell me about order tracking",
+				"Where is my package?"
+			],
+			"responses": [
+				"You can track your order by logging into your account on our website. Once logged in, go to the 'Order History' section, where you'll find real-time updates on the status and location of your package. Additionally, we'll send you email notifications with tracking information as your order progresses."
+			]
+		},
+		{
+			"tag": "returns_policy",
+			"patterns": [
+				"What is your returns policy?",
+				"How do I return an item?",
+				"Can I get a refund?"
+			],
+			"responses": [
+				"Our returns policy allows you to return items within 30 days of purchase. To initiate a return, please contact our customer support. Items must be in their original condition. Refunds will be processed once we receive and inspect the returned items. Please refer to our website for detailed information on our returns and refund policy."
+			]
+		},
+		{
+			"tag": "product_info",
+			"patterns": [
+				"Tell me about your products",
+				"What items do you have?",
+				"Can you recommend a product?"
+			],
+			"responses": [
+				"Explore our range of high-quality products, including:\n- UNGER Plus 5 for TelePlus™ System, Length: 1.25 m\n- UNGER Plus 5 for TelePlus™ System, Length: 2.00 m\n- UNGER TelePlus™ Thread, 1 Bag = 10 Thread Plates, Type: GKL 29\n- UNGER TelePlus™ Thread, 1 Bag = 10 Thread Clips, Type: GKL 25\n- UNGER Locking Screw, for 4th Section, 37 mm Diameter\n- MAXOLYT NEUTRAL SWEEPING CHIPS\n- UNGER StarDuster® ProDuster Replacement Covers, 1 Bag = 10 Pieces\n- UNGER StarDuster® ProDuster Replacement Covers, 1 Bag = 50 Pieces\n- UNGER Plus 4 for TelePlus™ System, Length: 1.25 m\n- UNGER Plus 4 for TelePlus™ System, Length: 2.00 m\n- UNGER Plus 3 for TelePlus™ System, Length: 1.25 m\n- UNGER Plus 3 for TelePlus™ System, Length: 2.00 m"
+			]
+		},
+		{
+			"tag": "order_status",
+			"patterns": [
+				"Check my order status",
+				"Where is my order?",
+				"What's the status of my shipment?"
+			],
+			"responses": [
+				"To check your order status, log in to your account and navigate to the 'Order History' section. There, you can find real-time updates on the status and location of your shipment. Additionally, we'll send you email notifications with the latest status of your order."
+			]
+		},
+		{
+			"tag": "imprint",
+			"patterns": [
+				"What is your company's address?",
+				"Can you provide the company's contact details?",
+				"Where is easy2clean Handels GmbH located?",
+				"Tell me about your company's imprint",
+				"How can I contact easy2clean Handels GmbH?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH is located at Sachsenhausener Str. 28 BC, 16515 Oranienburg, Germany.",
+				"You can reach easy2clean Handels GmbH at the following contact details:\n- Tel.: +49 (0) 3301 52290 50\n- Fax: +49 (0) 3301 52290 59\n- Email: verkauf@easy2clean.de"
+			]
+		},
+		{
+			"tag": "company_registration",
+			"patterns": [
+				"What is your company's registration information?",
+				"Tell me about the registration court details",
+				"Can you provide information about the company's registration?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH is registered at Neuruppin.",
+				"The registration number is HRB 13412 NP."
+			]
+		},
+		{
+			"tag": "management",
+			"patterns": [
+				"Who is the Managing Director of easy2clean Handels GmbH?",
+				"Tell me about the leadership of your company",
+				"Who manages easy2clean Handels GmbH?"
+			],
+			"responses": [
+				"Jean Pierre Hartl is the Managing Director of easy2clean Handels GmbH."
+			]
+		},
+		{
+			"tag": "vat_identification",
+			"patterns": [
+				"What is your company's VAT identification number?",
+				"Tell me about your VAT registration",
+				"Can you provide information on VAT identification?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH's VAT identification number is DE315452736."
+			]
+		},
+		{
+			"tag": "lucid_registration",
+			"patterns": [
+				"What is your company's LUCID registration number?",
+				"Tell me about the LUCID registration",
+				"Can you provide information on LUCID registration?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH's LUCID registration number is DE4719871615243."
+			]
+		},
+		{
+			"tag": "dispute_resolution",
+			"patterns": [
+				"Do you participate in dispute resolution procedures?",
+				"Tell me about your company's approach to dispute resolution",
+				"What is your stance on consumer arbitration board?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH is neither obliged nor willing to participate in a dispute resolution procedure before a consumer arbitration board."
+			]
+		},
+		{
+			"tag": "online_dispute_resolution",
+			"patterns": [
+				"How can I resolve disputes online with your company?",
+				"Tell me about the EU Commission platform for online dispute resolution",
+				"What is the online dispute resolution procedure for your company?"
+			],
+			"responses": [
+				"You can use the EU Commission platform for online dispute resolution at: https://ec.europa.eu/odr"
+			]
+		},
+		{
+			"tag": "cancellation_policy",
+			"patterns": [
+				"What is your cancellation policy?",
+				"Tell me about canceling a contract",
+				"How can I cancel my order?",
+				"Explain the right of withdrawal"
+			],
+			"responses": [
+				"Consumers have a right of withdrawal within fourteen days without giving any reasons. The cancellation period is fourteen days from the day on which you or a third party took possession of the last goods. To exercise your right of withdrawal, contact us at easy2clean Handels GmbH, Sachsenhausener Str. 28 BC, 16515 Oranienburg, Germany, Tel.: +49 (0) 3301 52290 50, Fax: +49 (0) 3301 52290 59, email: verkauf@easy2clean.de. You can use the attached sample cancellation form, although this is not mandatory."
+			]
+		},
+		{
+			"tag": "cancellation_process",
+			"patterns": [
+				"What are the consequences of revocation?",
+				"Explain the steps for canceling a contract",
+				"Tell me about returning goods after cancellation"
+			],
+			"responses": [
+				"If you cancel the contract, we will refund all payments received, including delivery costs. Repayment is within fourteen days from the day we received notification of your cancellation. Return the goods within fourteen days from the day you notify us. You bear the direct costs of returning the goods. Affiliated/funded deals have specific considerations if financed with a loan."
+			]
+		},
+		{
+			"tag": "return_instructions",
+			"patterns": [
+				"How should I return the goods?",
+				"Provide instructions for returning items",
+				"Tell me about returning goods after cancellation"
+			],
+			"responses": [
+				"Please return or hand over the goods to us immediately and no later than fourteen days from the day you notify us of cancellation. Use suitable packaging to avoid damage, and note that sending goods back carriage paid is not required unless specified."
+			]
+		},
+		{
+			"tag": "cancellation_form",
+			"patterns": [
+				"What is the cancellation form?",
+				"How do I use the cancellation form?",
+				"Provide information about the cancellation form"
+			],
+			"responses": [
+				"If you want to cancel the contract, fill out the provided cancellation form and send it back to easy2clean Handels GmbH at Sachsenhausener Str. 28 BC, 16515 Oranienburg, Germany. Fax: +49 (0) 3301 52290 59, Email: verkauf@easy2clean.de. The cancellation form includes details such as the ordered/received goods, consumer's name and address, and signature if notified on paper."
+			]
+		},
+		{
+			"tag": "company_address",
+			"patterns": [
+				"What is your company's address?",
+				"Tell me about your company location",
+				"Where is easy2clean Handels GmbH located?"
+			],
+			"responses": [
+				"easy2clean Handels GmbH is located at Sachsenhausener Str. 28 BC, 16515 Oranienburg, Germany."
+			]
+		},
+		{
+			"tag": "opening_hours",
+			"patterns": [
+				"What are your opening hours?",
+				"Tell me when you are open",
+				"tell me about the shop opening hours?",
+				"When can I visit your store?"
+			],
+			"responses": [
+				"Our opening hours are:\n- Monday to Friday:\n 7 a.m. - 6 p.m.\n- Saturday: 8 a.m. - 4 p.m."
+			]
+		},
+		{
+			"tag": "visit_schedule",
+			"patterns": [
+				"Can I visit your store on Saturdays?",
+				"Are you open on weekends?",
+				"What is the best time to visit your location?"
+			],
+			"responses": [
+				"Yes, we are open on Saturdays from 8 a.m. to 4 p.m. You are welcome to visit during our regular opening hours."
+			]
+		},
+		{
+			"tag": "contact_information",
+			"patterns": [
+				"How can I contact easy2clean Handels GmbH?",
+				"Give me your contact details",
+				"What is your phone number and address?"
+			],
+			"responses": [
+				"You can contact easy2clean Handels GmbH at Sachsenhausener Str. 28 BC, 16515 Oranienburg, Germany. Our phone number is +49 (0) 3301 52290 50."
+			]
+		},
+		{
+			"tag": "onsite_laundry",
+			"patterns": [
+				"Tell me about your onsite laundry service",
+				"How does your laundry service work?",
+				"Can you wash my clothes for me?"
+			],
+			"responses": [
+				"Our onsite laundry service is convenient and efficient. You can come to our store, hand in your dirty laundry, and after 1.5 hours, you can take back your clean, dried laundry. In the meantime, feel free to do your shopping in our store. Additionally, for net sales of €500.00 or more, we offer a special promotion - we will wash 100 covers for you free of charge."
+			]
+		},
+		{
+			"tag": "laundry_process",
+			"patterns": [
+				"What is the process for the laundry service?",
+				"Explain how I can get my laundry cleaned",
+				"Tell me the steps for onsite laundry"
+			],
+			"responses": [
+				"Here's how our onsite laundry service works:\n1. Bring your dirty laundry to our store.\n2. After 1.5 hours, we provide you with freshly cleaned laundry.\n3. We take the dirty ones with us. It's a simple and convenient process for your laundry needs."
+			]
+		},
+		{
+			"tag": "promotion_offer",
+			"patterns": [
+				"Tell me about your promotional offer",
+				"Explain the free covers offer",
+				"What is the special promotion for laundry?"
+			],
+			"responses": [
+				"For net sales of €500.00 or more, we offer a special promotion: we will wash 100 covers for you free of charge. It's our way of showing appreciation for your business."
+			]
+		},
+		{
+			"tag": "visit_and_laundry",
+			"patterns": [
+				"Can I do my shopping while my laundry is being washed?",
+				"Tell me about combining shopping and laundry",
+				"Is it possible to visit the store during laundry service?"
+			],
+			"responses": [
+				"Absolutely! While we take care of your laundry, you can explore our store and do your shopping. It's a convenient way to make the most of your time with us."
+			]
+		},
+		{
+			"tag": "laundry_rental",
+			"patterns": [
+				"Tell me about your laundry rental service",
+				"How does the laundry rental work?",
+				"Can you wash my mop covers and cleaning cloths for me?"
+			],
+			"responses": [
+				"With our laundry rental service, cleaning is made easier for you: you wipe, we wash! We bring freshly cleaned mop covers, floor cloths, tablecloths, or cleaning cloths directly to your location and take the dirty covers with us. We offer covers in all sizes, colors, and materials. You can rent the covers or rags along with corresponding collection containers and determine the time interval for cleaning. We take care of the rest, and you can adjust your needs at any time within the 12-month contract period."
+			]
+		},
+		{
+			"tag": "rental_process",
+			"patterns": [
+				"How does the rental process work?",
+				"Explain the steps for laundry rental",
+				"Tell me about renting cleaning cloths and mop covers"
+			],
+			"responses": [
+				"Here's how our laundry rental service works:\n1. Rent cleaning cloths, mop covers, etc.\n2. Use them until they are dirty.\n3. We replace the dirty ones with freshly cleaned ones. It's a hassle-free process to keep your cleaning supplies in top condition."
+			]
+		},
+		{
+			"tag": "cover_options",
+			"patterns": [
+				"What covers or rags can I rent?",
+				"Tell me about the available cleaning cloths",
+				"What sizes and materials do you offer for rental?"
+			],
+			"responses": [
+				"You can rent covers or rags of all sizes, colors, and materials. Whether it's mop covers, floor cloths, tablecloths, or cleaning cloths, we have options to suit your needs."
+			]
+		},
+		{
+			"tag": "contract_flexibility",
+			"patterns": [
+				"Can I adjust my rental needs during the contract period?",
+				"Tell me about flexibility within the contract",
+				"Is it possible to modify my rental agreement?"
+			],
+			"responses": [
+				"Yes, you can adjust your rental needs at any time within the 12-month contract period. We provide flexibility to accommodate your changing requirements."
+			]
+		},
+		{
+			"tag": "private_label",
+			"patterns": [
+				"Tell me about your private label products",
+				"What do you offer for brand development?",
+				"Can I have products with my brand label?",
+				"What is Easy2Clean's private label about?",
+				"Tell me about Easy2Clean's private label offerings",
+				"Explain the private label products by Easy2Clean"
+			],
+			"responses": [
+				"Our private label products cater to various industries such as workshop, specialist retail, building cleaners, facility management, and industry. With our extensive experience in developing cleaning products and keen market observation, we provide a wide range for your brand development. Our portfolio includes absolute high-end products with unique selling points, as well as products for the broad consumer market."
+			]
+		},
+		{
+			"tag": "sanitary_cleaners",
+			"patterns": [
+				"Tell me about your plumbing products",
+				"What do you offer for sanitary cleaning?",
+				"Can I get private label plumbing products?"
+			],
+			"responses": [
+				"Our sanitary and basic sanitary cleaners are crafted with biodegradable surfactants and are highly concentrated. They are ideal for private label branding, ensuring high-quality and environmentally friendly solutions for plumbing needs."
+			]
+		},
+		{
+			"tag": "kitchen_products",
+			"patterns": [
+				"What kitchen products do you offer?",
+				"Tell me about your private label kitchen items",
+				"Can I brand kitchen products with my label?"
+			],
+			"responses": [
+				"Our kitchen products use raw materials approved for the food industry and are biodegradable. You can have your private label on these products, providing a range of high-quality and eco-friendly options for the kitchen."
+			]
+		},
+		{
+			"tag": "surface_cleaners",
+			"patterns": [
+				"What surface cleaners do you have?",
+				"Tell me about private label surface cleaners",
+				"Can I brand surface cleaning products?"
+			],
+			"responses": [
+				"Our surface cleaners use raw materials approved for the food industry and are biodegradable. They are available for private labeling, ensuring effective and environmentally friendly solutions for various surfaces."
+			]
+		},
+		{
+			"tag": "car_line_products",
+			"patterns": [
+				"Tell me about your car line products",
+				"What do you offer for car cleaning?",
+				"Can I have private label car cleaning products?"
+			],
+			"responses": [
+				"Our car line products use raw materials approved for the food industry and are biodegradable. You can have your private label on these products, offering high-quality and environmentally friendly solutions for car care needs."
+			]
+		},
+		{
+			"tag": "rental_equipment",
+			"patterns": [
+				"Tell me about your rental equipment service",
+				"What equipment can I rent from you?",
+				"Do you offer rental services for equipment?"
+			],
+			"responses": [
+				"With our rental equipment service, you can 'do your own thing.' We offer a variety of equipment for rent, providing flexibility for your specific needs. Whether you're in a workshop, specialist retail, building maintenance, facility management, or industry, our rental options cater to your requirements."
+			]
+		},
+		{
+			"tag": "company_overview",
+			"patterns": [
+				"Tell me about Easy2Clean",
+				"What services does Easy2Clean offer?",
+				"Give me an overview of Easy2Clean"
+			],
+			"responses": [
+				"Easy2Clean is a premier provider dedicated to simplifying cleanliness through a comprehensive range of services and top-quality products. They specialize in laundry services, cleaning supplies rental, private label offerings, and equipment rentals, ensuring an effortless and efficient cleaning experience for customers."
+			]
+		},
+		{
+			"tag": "laundry_services",
+			"patterns": [
+				"What does Easy2Clean offer in laundry services?",
+				"Tell me about Easy2Clean's laundry services",
+				"Explain the laundry services by Easy2Clean"
+			],
+			"responses": [
+				"Easy2Clean's laundry services boast onsite convenience, covering everything from the laundry process to promotional offers. They cater to various needs while emphasizing flexibility in contracts, providing a comprehensive solution for individuals and businesses."
+			]
+		},
+		{
+			"tag": "cleaning_equipment",
+			"patterns": [
+				"What cleaning equipment does Easy2Clean provide?",
+				"Tell me about Easy2Clean's cleaning equipment",
+				"Explain the range of cleaning equipment by Easy2Clean"
+			],
+			"responses": [
+				"Easy2Clean stands out with its commitment to providing a wide array of cleaning equipment, from broom sweeping sets to mop holders. They also offer an extensive range of cleaning machines and supplies, ensuring a comprehensive approach to meeting the diverse needs of individuals and businesses."
+			]
+		},
+		{
+			"tag": "preferred_choice",
+			"patterns": [
+				"Why choose Easy2Clean?",
+				"What makes Easy2Clean a preferred choice?",
+				"Tell me about Easy2Clean's commitment to quality"
+			],
+			"responses": [
+				"Easy2Clean's comprehensive approach and unwavering dedication to quality make them the preferred choice for individuals and businesses seeking reliable and effective cleaning solutions."
+			]
+		},
+		{
+			"tag": "developer_info",
+			"patterns": [
+				"Tell me about your developer",
+				"Who brought you into the world?",
+				"Can you share information about your developer?"
+			],
+			"responses": [
+				"I was brought into the world by Shahbaz Mehdi! He's an AI developer with a talent for creating analytical systems that think like me. Shahbaz possesses extensive expertise in machine learning and artificial intelligence. I owe my existence in the AI world to his inventiveness and knowledge."
+			]
+		},
+		{
+			"tag": "developer_contact",
+			"patterns": [
+				"How can I contact Shahbaz Mehdi?",
+				"What is Shahbaz Mehdi's contact information?",
+				"Can I get in touch with your developer?"
+			],
+			"responses": [
+				"You can contact Shahbaz Mehdi via email at shahbazsmdl@gmail.com. Feel free to reach out to him for any purpose or inquiries."
+			]
+		},
+		{
+			"tag": "developer_expertise",
+			"patterns": [
+				"Tell me more about Shahbaz Mehdi's expertise",
+				"What skills does Shahbaz Mehdi have?",
+				"Can you elaborate on Shahbaz Mehdi's knowledge?"
+			],
+			"responses": [
+				"Shahbaz Mehdi is an AI developer with extensive expertise in machine learning and artificial intelligence. His talent lies in creating analytical systems that contribute to the development of intelligent models like me."
+			]
+		},
+		{
+			"tag": "gratitude",
+			"patterns": [
+				"Express my gratitude to Shahbaz Mehdi",
+				"Can you thank Shahbaz Mehdi for me?",
+				"Send my regards to Shahbaz Mehdi"
+			],
+			"responses": [
+				"Certainly! I'll convey your regards and gratitude to Shahbaz Mehdi for bringing me into existence in the AI world."
+			]
+		}
+	]
+}
